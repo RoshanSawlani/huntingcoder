@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import Script from "next/script";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Link from "next/link";
+
 
 
 
@@ -31,17 +30,8 @@ export default function Home() {
 
       </Head>
       {/* <Script src="/sc.js" strategy="lazyOnload"></Script> */}
-      <nav className={styles.mainnav}>
-        <ul>
-          <Link href="/" legacyBehavior><a><li>Home</li></a></Link>
-          <Link href="/about" legacyBehavior><a><li>About</li></a></Link>
-          <Link href="/blog" legacyBehavior><a><li>Blog</li></a></Link>
-          <Link href="/contact" legacyBehavior><a><li>Contact</li></a></Link>
-        </ul>
-      </nav>
+      
       <main className={`${styles.main} ${inter.className}`}>
-
-
         <div className={styles.center}>
           <h1 className={styles.title}>
             <span className="mySpan">Hunting Coder</span>
@@ -53,7 +43,7 @@ export default function Home() {
         </div>
         <p className={styles.popular}>A blog for hunting coders by a hunting coder</p>
         <div className={styles.blogs}>
-          <h2>Popular Blogs</h2>
+          <h2>Latest Blogs</h2>
           <div className={styles.blogItem}>
             <h3>How to learn JavaScript in 2024?</h3>
             <p>JavaScript is the language used to design logic for the web</p>
