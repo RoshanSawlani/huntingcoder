@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3rem;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .heading{
+    padding:20px
+  }
+  .container{
+    padding:0 22rem;
+  }
