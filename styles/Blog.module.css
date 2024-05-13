@@ -5,7 +5,10 @@
   margin: 20px 0px;
 }
 .blogItemh3 {
-    cursor:pointer
+  font-size: 2rem;
+  cursor:pointer;
+  margin: 0;
+  padding: 0;
   }
 .blogItemp{
   max-width: 45vw;
