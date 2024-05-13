@@ -7,6 +7,9 @@
 .blogItemh3 {
     cursor:pointer
   }
+.blogItemp{
+  max-width: 45vw;
+}
 .popular {
   margin-top: 20px;
   padding: 10px;
