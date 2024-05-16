@@ -26,3 +26,12 @@
   min-height: 100vh;
 }
 
+.btn{
+  color: white;
+  background: black;
+  padding: 7px 6px;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-bottom: 9px;
+  font-size: 16px;
+}

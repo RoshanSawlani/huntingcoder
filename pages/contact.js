@@ -52,26 +52,25 @@ const handleChange = (e) => {
 
         <div className={styles.mb3}>
           <label htmlFor="name" className={styles.formlabel}>Enter your name</label>
-          <input type="text" name="name" value={name} onChange={handleChange} className="form-control" id="name" aria-describedby="emailHelp" />
+          <input type="text" name="name" value={name} onChange={handleChange} className={styles.input} id="name" aria-describedby="emailHelp" required/>
         </div>
 
         <div className={styles.mb3}>
           <label htmlFor="email" className={styles.formlabel}>Email address</label>
-          <input type="email"name="email" value={email} onChange={handleChange} className="form-control" id="email" aria-describedby="emailHelp" />
-          <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+          <input type="email"name="email" value={email} onChange={handleChange} className={styles.input} id="email" aria-describedby="emailHelp" required/>
+          <div id="emailHelp" className={styles.formtext}>We'll never share your email with anyone else.</div>
         </div>
         
         <div className={styles.mb3}>
           <label htmlFor="phone" className={styles.formlabel}>Phone</label>
-          <input type="phone" value={phone} onChange={handleChange} className="form-control" name="phone" id="phone" />
+          <input type="phone" value={phone} onChange={handleChange} className={styles.input} name="phone" id="phone" required/>
         </div>
 
         <div className={styles.mb3}>
-          <label htmlFor="floatingTextarea">Elaborate your concern</label>
-          <textarea value={desc} name='desc' onChange={handleChange} className="form-control" placeholder="Write your concern here" id="desc" />
+          <label className={styles.formlabel} htmlFor="floatingTextarea">Elaborate your concern</label>
+          <textarea className={styles.input} value={desc} name='desc' onChange={handleChange} id="desc" />
         </div>
-
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <button className={styles.btn} type="submit">Submit</button>
       </form>
     </div>
   )

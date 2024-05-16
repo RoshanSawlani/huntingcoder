@@ -12,14 +12,14 @@ const About = () => {
         <p>We offer the following services:</p>
         <ul>
           <li>Service 1</li>
-          <li>Service 1</li>
-          <li>Service 1</li>
-          <li>Service 1</li>
-          <li>Service 1</li>
-          <li>Service 1</li>
-          <li>Service 1</li>
-          <li>Service 1</li>
-          <li>Service 1</li>
+          <li>Service 2</li>
+          <li>Service 3</li>
+          <li>Service 4</li>
+          <li>Service 5</li>
+          <li>Service 6</li>
+          <li>Service 7</li>
+          <li>Service 8</li>
+          <li>Service 9</li>
         </ul>
         <h2>Contact Us</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores officia doloribus quod. Ad iure ipsa at dignissimos ipsam aliquam id vitae rerum voluptas, excepturi perferendis expedita ab sunt consectetur dolore nostrum officia voluptatibus obcaecati placeat saepe iusto beatae. Alias, a officiis quaerat corrupti itaque suscipit at mollitia, fugiat minima nihil iusto inventore ex incidunt deleniti dolorum?</p>
