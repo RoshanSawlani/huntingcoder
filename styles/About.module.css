@@ -1,0 +1,9 @@
+.container{
+    max-width: 45vw;
+    margin:auto;
+    margin-top:20px;
+    padding-top: 20px;
+}
+.center{
+    text-align: center;
+}
